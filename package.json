@@ -1,0 +1,29 @@
+{
+  "name": "mivacuna-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfdelarosa/mivacuna-bot.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "bot"
+  ],
+  "author": "jfdelarosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfdelarosa/mivacuna-bot/issues"
+  },
+  "homepage": "https://github.com/jfdelarosa/mivacuna-bot#readme",
+  "dependencies": {
+    "puppeteer": "^7.0.1",
+    "puppeteer-extra": "^3.1.16",
+    "puppeteer-extra-plugin-recaptcha": "^3.3.2"
+  }
+}
